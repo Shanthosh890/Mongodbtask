@@ -1,0 +1,63 @@
+body{
+    color: black;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 8px 17px;
+    font-size: 19px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.one{
+    background-color: lightgrey;
+    padding: 40px;
+    box-shadow: 11px 11px 12px white;
+}
+.two{
+    background-color: lightgrey;
+    padding: 40px;
+    box-shadow: 11px 11px 12px white;
+}
+table tr{
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+table tr td{
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+table th{
+    padding: 10px 30px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: darkorange;
+    box-shadow: 16px 16px 71px 10px;
+}
+table tr .edit a{
+    text-decoration: none;
+    color: white;
+    background-color: skyblue;
+    padding: 8px 17px;
+    font-size: 19px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+}
+table tr .delete a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 8px 17px;
+    font-size: 19px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+}

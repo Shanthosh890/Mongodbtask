@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{{url_for('edit_user',user_name=USER.user_name)}}" method="POST">
+        
+
+        <label for="user_name">User_name</label>
+        <input type="text" name="user_name" id="user_name" value="{{USER.user_name}}">
+
+        <label for="phone_no">Phone_no</label>
+        <input type="number" name="phone_no" id="phone_no" value="{{USER.phone_no}}">
+
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" value="{{USER.address}}">
+
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
